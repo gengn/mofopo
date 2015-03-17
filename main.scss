@@ -3,6 +3,7 @@
 $asphalt: #2c3e50;
 $midnight: #2c3e50;
 $silver: #bdc3c7;
+$clouds: #ecf0f1;
 
 // Styles
 
@@ -54,19 +55,62 @@ body {
 	width: 60%;
 	height: 100%;
 	color: $midnight;
-
-	> * {
-		padding: 3rem;
-	}
+	overflow-x: hidden;
+	overflow-y: scroll;
 
 	div {
 		background-color: $silver;
+		padding: 3rem;
 
 		h2 {
 			margin: 0px;
 			font-size: 3rem;
 			line-height: 3rem;
 			font-weight: 300;
+		}
+	}
+
+	table {
+		width: 100%;
+		border-spacing: 0px;
+
+		tr:first-child {
+			background-color: $clouds;
+
+			td {
+				cursor: pointer;
+				-webkit-transition: all 0.15s ease-in-out;
+				-moz-transition: all 0.15s ease-in-out;
+				-o-transition: all 0.15s ease-in-out;
+				transition: all 0.15s ease-in-out;
+			}
+
+			td:hover {
+				background-color: $silver;
+			}
+		}
+
+		td {
+			position: relative;
+			padding: 2rem 3rem 2rem 3rem;
+			-webkit-transition: all 0.15s ease-in-out;
+			-moz-transition: all 0.15s ease-in-out;
+			-o-transition: all 0.15s ease-in-out;
+			transition: all 0.15s ease-in-out;
+
+			a {
+				position: absolute;
+				display: block;
+				top: 0px;
+				left: 0px;
+				height: 100%;
+				width: 100%;
+				padding: 2rem 3rem 2rem 3rem;
+			}
+		}
+
+		tr:not(:first-child):hover {
+			background-color: $clouds;
 		}
 	}
 
