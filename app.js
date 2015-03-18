@@ -27,7 +27,7 @@ function buildList(list, comp, column, ascending) {
     $('#reading-container').append(
       '<tr>' +
         '<td>' +
-          '<a href="reading/' + list[i].filename + '">' + list[i].title + '</a>' +
+          '<a target="_blank" href="reading/' + list[i].filename + '">' + list[i].title + '</a>' +
         '</td>' +
         '<td>' + list[i].author + '</td>' +
       '</tr>'
