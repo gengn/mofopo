@@ -52,7 +52,7 @@ body {
     width: 100%;
     border-spacing: 0px; }
     #reading table tr:first-child {
-      background-color: #ecf0f1;
+      background-color: #DFE6E8;
       -webkit-touch-callout: none;
       -webkit-user-select: none;
       -khtml-user-select: none;
@@ -80,7 +80,7 @@ body {
         #reading table tr:first-child td .down {
           background-image: url("img/up.png"); }
       #reading table tr:first-child td:hover {
-        background-color: #bdc3c7; }
+        background-color: #D1DCE3; }
     #reading table td {
       position: relative;
       padding: 2rem 3rem 2rem 3rem; }
@@ -95,6 +95,6 @@ body {
         color: black;
         text-decoration: none; }
     #reading table tr:not(:first-child):hover {
-      background-color: #ecf0f1; }
+      background-color: #E9F0F5; }
 
 /*# sourceMappingURL=main.css.map */

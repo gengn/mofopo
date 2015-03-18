@@ -1,7 +1,8 @@
 // Variables
 
-$silver: #bdc3c7;
-$clouds: #ecf0f1;
+$silver: #D1DCE3;
+$midgrey: #E9F0F5;
+$clouds: #DFE6E8;
 $sea: #16a085;
 $grey: rgba(0,0,0,0.5);
 
@@ -136,7 +137,7 @@ body {
 		}
 
 		tr:not(:first-child):hover {
-			background-color: $clouds;
+			background-color: $midgrey;
 		}
 	}
 
