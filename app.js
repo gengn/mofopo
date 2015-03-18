@@ -13,6 +13,7 @@ function buildList(list, comp, column, ascending) {
   $('tr').remove(':not(:first-child)');
   console.log($('#reading-container').children().length);
   list = list.sort(comp);
+  console.log(list[0]);
   $('.icon').removeClass('up down');
 
   if (ascending) {                                         // Reverse list if order is descending
