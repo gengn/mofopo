@@ -43,7 +43,7 @@ body {
   background-repeat: no-repeat;
   background-image: url("img/bg.png");
   color: white;
-  overflow: hidden; }
+  overflow-x: hidden; }
   #header div {
     position: relative;
     width: 100%;
