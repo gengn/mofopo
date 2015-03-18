@@ -1,54 +1,95 @@
 // Sort comparator by date
 function compdate(a, b) {
-	return Date.parse(a.date) > Date.parse(b.date);
+  return Date.parse(a.date) > Date.parse(b.date);
 }
 
 // Sort comparator by title
 function comptitle(a, b) {
-	return a.title > b.title;
+  return a.title > b.title;
 }
 
 // Sort comparator by author
-function comptitle(a, b) {
-	return a.author > b.author;
+function compauthor(a, b) {
+  return a.author > b.author;
+}
+
+// Build list of readings
+function buildList(list, comp, column, ascending) {
+  $('tr').remove(':not(:first-child)');
+  console.log($('#reading-container').children().length);
+  list = list.sort(comp);
+  $('.icon').removeClass('up down');
+
+  if (ascending) {                                         // Reverse list if order is descending
+    list = list.reverse();
+    $('#' + column).addClass('up');
+  }
+  else {
+    $('#' + column).addClass('down');
+  }
+
+  for (var i = 0; i < list.length; i++) {
+    $('#reading-container').append(
+      '<tr>' +
+        '<td>' +
+          '<a href="reading/' + list[i].filename + '">' + list[i].title + '</a>' +
+        '</td>' +
+        '<td>' + list[i].author + '</td>' +
+        '<td>' + list[i].date + '</td>' +
+      '</tr>'
+    );
+  }
 }
 
 $(document).ready(function() {
 
-	// Parse reading.txt
-	$.get('reading.txt', {}, function(data) {
+  var column    = 'date';                                  // Ordering column
+  var ascending = false;                                   // Default ordering column
+  var list      = [];                                      // List of reading items
 
-		console.log(data);
-		var container = $('#reading-container');
-		
+  // Parse reading.txt
+  $.get('reading.txt', function(data) {
+               list = data;
+               console.log(list);
+               buildList(list, compdate, 'date', false);   // Build initial list sorted by date
+    }, 'json');
 
-		// Build list of readings
-		function buildList(comp, ascending) {
-			var list = data.sort(comp);
 
-			if (!ascending)															// Reverse list if order is descending
-				list = list.reverse();
+  // Handle toggle
+  $('#sort').click(function(e) {
+    switch ($(e.target).text()) {
+      case 'Title':
+        console.log('title');
 
-			for (var i = 0; i < data.length; i++) {
-				container.children().slice(1).remove();
-				container.append(
-					'<tr>' +
-						'<td><a href="reading/' + data[i].filename + '">' + data[i].title + '</a></td>' +
-						'<td>' + data[i].author + '</td>' +
-						'<td>' + data[i].date + '</td>' +
-					'</tr>'
-				);
-			}
-		}
+        if (column === 'title') {
+          buildList(list, comptitle, 'title', ascending = !ascending);
+        }
+        else {
+          buildList(list, comptitle, 'title', ascending = false);
+        }
+        column = 'title';
+        break;
+      case 'Author':
+        console.log('author');
 
-		buildList(compdate,true);											// Build initial list sorted by date
+        if (column === 'author') {
+          buildList(list, compauthor, 'author', ascending = !ascending);
+        }
+        else {
+          buildList(list, compauthor, 'author', ascending = false);
+        }
+        column = 'author';
+        break;
+      case 'Read by':
+        console.log('read by');
 
-		// Handle toggle
-		$('#sort').click(function(e) {
-			console.log($(e.target).text());
-
-		});
-
-	}, 'json');
-
+        if (column === 'date') {
+          buildList(list, compdate, 'date', ascending = !ascending);
+        }
+        else {
+          buildList(list, compdate, 'date', ascending = false);
+        }
+        column = 'date';
+    }
+  });
 });
