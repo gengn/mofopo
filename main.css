@@ -1,157 +1,51 @@
-body {
-  margin: 0px;
-  font-family: 'Lato', san-serif; }
+/*
+Error: Invalid CSS after "@import": expected file to import (string or url()), was ": 'font';"
+        on line 9 of main.scss
 
-#header {
-  position: relative;
-  display: inline-block;
-  float: left;
-  width: 40%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("img/sss.jpg");
-  color: white;
-  overflow: hidden; }
-  #header div {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: #16a085;
-    opacity: 0.95; }
-    #header div h1 {
-      position: relative;
-      padding: 3rem;
-      padding-top: 30%;
-      margin: 0px;
-      font-size: 4rem;
-      font-weight: 300; }
-    #header div h3 {
-      position: relative;
-      padding: 3rem;
-      font-weight: 300; }
+4: $midgrey: #E9F0F5;
+5: $clouds: #DFE6E8;
+6: $sea: #16a085;
+7: $grey: rgba(0,0,0,0.5);
+8: 
+9: @import: 'font';
+10: 
+11: // Styles
+12: 
+13: body {
+14: 	margin: 0px;
 
-#reading {
-  position: relative;
-  display: inline-block;
-  float: left;
-  width: 60%;
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll; }
-  #reading div {
-    background-color: white;
-    padding: 3rem;
-    color: rgba(0, 0, 0, 0.5); }
-    #reading div h2 {
-      margin: 0px;
-      font-size: 3rem;
-      line-height: 3rem;
-      font-weight: 300; }
-  #reading table {
-    width: 100%;
-    border-spacing: 0px; }
-    #reading table tr:first-child {
-      background-color: #DFE6E8;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none; }
-      #reading table tr:first-child td {
-        position: relative;
-        cursor: pointer; }
-        #reading table tr:first-child td p {
-          display: inline-block;
-          margin: 0px; }
-        #reading table tr:first-child td div {
-          display: inline-block;
-          float: right;
-          padding: 0px;
-          height: 1rem;
-          width: 1rem;
-          background-color: transparent;
-          background-size: contain;
-          background-repeat: no-repeat;
-          background-position: center; }
-        #reading table tr:first-child td .up {
-          background-image: url("img/down.png"); }
-        #reading table tr:first-child td .down {
-          background-image: url("img/up.png"); }
-      #reading table tr:first-child td:hover {
-        background-color: #D1DCE3; }
-    #reading table td {
-      position: relative;
-      padding: 2rem 3rem 2rem 3rem; }
-      #reading table td a {
-        position: absolute;
-        display: block;
-        top: 0px;
-        left: 0px;
-        height: 100%;
-        width: 100%;
-        padding: 2rem 3rem 2rem 3rem;
-        color: black;
-        text-decoration: none; }
-    #reading table tr:not(:first-child):hover {
-      background-color: #E9F0F5; }
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 100;
-  src: local("Lato Hairline"), local("Lato-Hairline"), url(https://fonts.gstatic.com/s/lato/v11/h3_FseZLI76g1To6meQ4zX-_kf6ByYO6CLYdB4HQE-Y.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 100;
-  src: local("Lato Hairline"), local("Lato-Hairline"), url(https://fonts.gstatic.com/s/lato/v11/ifRS04pY1nJBsu8-cUFUS-vvDin1pK8aKteLpeZ5c0A.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Lato Light"), local("Lato-Light"), url(https://fonts.gstatic.com/s/lato/v11/IY9HZVvI1cMoAHxvl0w9LVKPGs1ZzpMvnHX-7fPOuAc.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Lato Light"), local("Lato-Light"), url(https://fonts.gstatic.com/s/lato/v11/22JRxvfANxSmnAhzbFH8PgLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Lato Regular"), local("Lato-Regular"), url(https://fonts.gstatic.com/s/lato/v11/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Lato Regular"), local("Lato-Regular"), url(https://fonts.gstatic.com/s/lato/v11/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Lato Bold"), local("Lato-Bold"), url(https://fonts.gstatic.com/s/lato/v11/rZPI2gHXi8zxUjnybc2ZQFKPGs1ZzpMvnHX-7fPOuAc.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Lato Bold"), local("Lato-Bold"), url(https://fonts.gstatic.com/s/lato/v11/MgNNr5y1C_tIEuLEmicLmwLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+main.scss:9
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:1163:in `expected'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:1099:in `expected'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:1079:in `expr!'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:368:in `block in import_directive'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:367:in `loop'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:367:in `import_directive'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:219:in `special_directive'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:194:in `directive'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:42:in `parse'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/engine.rb:393:in `_to_tree'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/jk5228/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:329:in `block in watch'
+/Users/jk5228/.rvm/gems/ruby-2.1.1@global/gems/listen-1.3.1/lib/listen/listener.rb:252:in `call'
+/Users/jk5228/.rvm/gems/ruby-2.1.1@global/gems/listen-1.3.1/lib/listen/listener.rb:252:in `on_change'
+/Users/jk5228/.rvm/gems/ruby-2.1.1@global/gems/listen-1.3.1/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/jk5228/.rvm/gems/ruby-2.1.1@global/gems/listen-1.3.1/lib/listen/adapter.rb:252:in `call'
+/Users/jk5228/.rvm/gems/ruby-2.1.1@global/gems/listen-1.3.1/lib/listen/adapter.rb:252:in `report_changes'
+/Users/jk5228/.rvm/gems/ruby-2.1.1@global/gems/listen-1.3.1/lib/listen/adapter.rb:321:in `poll_changed_directories'
+/Users/jk5228/.rvm/gems/ruby-2.1.1@global/gems/listen-1.3.1/lib/listen/adapter.rb:297:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@import\": expected file to import (string or url()), was \": 'font';\"\A         on line 9 of main.scss\A \A 4: $midgrey: #E9F0F5;\A 5: $clouds: #DFE6E8;\A 6: $sea: #16a085;\A 7: $grey: rgba(0,0,0,0.5);\A 8: \A 9: @import: 'font';\A 10: \A 11: // Styles\A 12: \A 13: body {\A 14: 	margin: 0px;"; }
