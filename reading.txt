@@ -1,50 +1,197 @@
 [
 	{
-		"title": "Google",
+		"title": "Intro to Morals and Legislation",
+		"author": "Bentham",
+		"filename": "Bentham_Intro to Morals and Legislation.pdf"
+	},
+	{
+		"title": "Burke 1",
+		"author": "Burke",
+		"filename": "Burke_1.pdf"
+	},
+	{
+		"title": "Burke 2",
+		"author": "Burke",
+		"filename": "Burke_2.pdf"
+	},
+	{
+		"title": "Federalist No. 1",
+		"author": "Hamilton",
+		"filename": "Federalist Papers_Federalist 1.pdf"
+	},
+	{
+		"title": "Federalist No. 9",
+		"author": "Hamilton",
+		"filename": "Federalist Papers_Federalist 9.pdf"
+	},
+	{
+		"title": "Federalist No. 10",
+		"author": "Madison",
+		"filename": "Federalist Papers_Federalist 10.pdf"
+	},
+	{
+		"title": "Federalist No. 14",
+		"author": "Madison",
+		"filename": "Federalist Papers_Federalist 14.pdf"
+	},
+	{
+		"title": "Federalist No. 39",
+		"author": "Madison",
+		"filename": "Federalist Papers_Federalist 39.pdf"
+	},
+	{
+		"title": "Federalist No. 48",
+		"author": "Madison",
+		"filename": "Federalist Papers_Federalist 48.pdf"
+	},
+	{
+		"title": "Federalist No. 51",
+		"author": "Hamilton or Madison",
+		"filename": "Federalist Papers_Federalist 51.pdf"
+	},
+	{
+		"title": "Federalist No. 62",
+		"author": "Hamilton or Madison",
+		"filename": "Federalist Papers_Federalist 62.pdf"
+	},
+	{
+		"title": "Federalist No. 70",
+		"author": "Hamilton",
+		"filename": "Federalist Papers_Federalist 70.pdf"
+	},
+	{
+		"title": "Federalist No. 78",
+		"author": "Hamilton",
+		"filename": "Federalist Papers_Federalist 78.pdf"
+	},
+	{
+		"title": "Lessons for the Professors of Mathematics",
 		"author": "Hobbes",
-		"filename": "hello.pdf",
-		"date": "March 7, 2015"
+		"filename": "Hobbes_Lessons for the Professors of Mathematics.pdf"
 	},
 	{
-		"title": "Chrome",
-		"author": "Locke",
-		"filename": "hello.pdf",
-		"date": "March 23, 2015"
-	},
-	{
-		"title": "Firefox",
-		"author": "Mill",
-		"filename": "hello.pdf",
-		"date": "March 5, 2015"
-	},
-	{
-		"title": "Opera",
-		"author": "Kant",
-		"filename": "hello.pdf",
-		"date": "March 14, 2015"
-	},
-	{
-		"title": "Google",
+		"title": "Leviathan (1)",
 		"author": "Hobbes",
-		"filename": "hello.pdf",
-		"date": "March 7, 2015"
+		"filename": "Hobbes_Leviathan_1.pdf"
 	},
 	{
-		"title": "Chrome",
+		"title": "Leviathan (2)",
+		"author": "Hobbes",
+		"filename": "Hobbes_Leviathan_2.pdf"
+	},
+	{
+		"title": "Leviathan (3)",
+		"author": "Hobbes",
+		"filename": "Hobbes_Leviathan_3.pdf"
+	},
+	{
+		"title": "First Treatise (Chapters 1, 2, and 9)",
 		"author": "Locke",
-		"filename": "hello.pdf",
-		"date": "March 23, 2015"
+		"filename": "Locke_First Treatise Ch. 1,2,9.pdf"
 	},
 	{
-		"title": "Firefox",
+		"title": "Second Treatise (Chapters 1–5)",
+		"author": "Locke",
+		"filename": "Locke_Second Treatise Ch. 1-5.pdf"
+	},
+	{
+		"title": "Second Treatise (Chapters 17–19)",
+		"author": "Locke",
+		"filename": "Locke_Second Treatise Ch. 17-19.pdf"
+	},
+	{
+		"title": "The Communist Manifesto",
+		"author": "Marx and Engels",
+		"filename": "Marx and Engels_Communist Manifesto.pdf"
+	},
+	{
+		"title": "Capital (Afterward to the Second German Edition)",
+		"author": "Marx",
+		"filename": "Marx_Capital_Afterward to the Second German Edition.pdf"
+	},
+	{
+		"title": "Capital (Part 1)",
+		"author": "Marx",
+		"filename": "Marx_Capital_Part 1.pdf"
+	},
+	{
+		"title": "Capital (Part 2)",
+		"author": "Marx",
+		"filename": "Marx_Capital_Part 2.pdf"
+	},
+	{
+		"title": "Capital (Part 3)",
+		"author": "Marx",
+		"filename": "Marx_Capital_Part 3.pdf"
+	},
+	{
+		"title": "Capital (Part 4)",
+		"author": "Marx",
+		"filename": "Marx_Capital_Part 4.pdf"
+	},
+	{
+		"title": "Capital (Part 5)",
+		"author": "Marx",
+		"filename": "Marx_Capital_Part 5.pdf"
+	},
+	{
+		"title": "Capital (Preface to the First German Edition)",
+		"author": "Marx",
+		"filename": "Marx_Capital_Preface to the First German Edition.pdf"
+	},
+	{
+		"title": "Capital (Preface to the French Edition)",
+		"author": "Marx",
+		"filename": "Marx_Capital_Preface to the French Edition.pdf"
+	},
+	{
+		"title": "Critique of the Gotha Programme (1)",
+		"author": "Marx",
+		"filename": "Marx_Critique Gotha Program_1.pdf"
+	},
+	{
+		"title": "Critique of the Gotha Programme (2)",
+		"author": "Marx",
+		"filename": "Marx_Critique Gotha Program_2.pdf"
+	},
+	{
+		"title": "Critique of the Gotha Programme (3)",
+		"author": "Marx",
+		"filename": "Marx_Critique Gotha Program_3.pdf"
+	},
+	{
+		"title": "Critique of the Gotha Programme (4)",
+		"author": "Marx",
+		"filename": "Marx_Critique Gotha Program_4.pdf"
+	},
+	{
+		"title": "Critique of the Gotha Programme (5)",
+		"author": "Marx",
+		"filename": "Marx_Critique Gotha Program_5.pdf"
+	},
+	{
+		"title": "Theories of Surplus Value",
+		"author": "Marx",
+		"filename": "Marx_Theories of Surplus Value.pdf"
+	},
+	{
+		"title": "On Liberty (Chapter 5)",
 		"author": "Mill",
-		"filename": "hello.pdf",
-		"date": "March 5, 2015"
+		"filename": "Mill_Ch. 5.pdf"
 	},
 	{
-		"title": "Opera",
-		"author": "Kant",
-		"filename": "hello.pdf",
-		"date": "March 14, 2015"
+		"title": "On Liberty (Chapters 1 and 2)",
+		"author": "Mill",
+		"filename": "Mill_Ch.1-2.pdf"
+	},
+	{
+		"title": "The Social Contract (1)",
+		"author": "Rousseau",
+		"filename": "Rousseau_1.pdf"
+	},
+	{
+		"title": "The Social Contract (2)",
+		"author": "Rousseau",
+		"filename": "Rousseau_2.pdf"
 	}
 ]

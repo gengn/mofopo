@@ -1,6 +1,37 @@
+a {
+  color: #16a085;
+  text-decoration: none;
+  outline: none !important; }
+
 body {
   margin: 0px;
   font-family: 'Lato', san-serif; }
+
+.modal {
+  z-index: 10;
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out; }
+  .modal .close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    height: 1rem;
+    width: 1rem;
+    background-size: contain;
+    background-image: url("img/close.png");
+    cursor: pointer; }
+  .modal .content {
+    padding: 5rem; }
+    .modal .content h2 {
+      font-size: 3rem;
+      font-weight: 300; }
 
 #header {
   position: relative;
@@ -22,14 +53,25 @@ body {
     #header div h1 {
       position: relative;
       padding: 3rem;
-      padding-top: 30%;
       margin: 0px;
       font-size: 4rem;
       font-weight: 300; }
     #header div h3 {
       position: relative;
       padding: 3rem;
+      padding-top: 0rem;
       font-weight: 300; }
+    #header div #buttons {
+      padding: 3rem;
+      padding-top: 0rem; }
+      #header div #buttons h3 {
+        display: inline-block;
+        padding: 1rem;
+        background-color: white;
+        color: #16a085;
+        cursor: pointer; }
+      #header div #buttons h3:hover {
+        color: black; }
 
 #reading {
   position: relative;
@@ -74,7 +116,8 @@ body {
           background-color: transparent;
           background-size: contain;
           background-repeat: no-repeat;
-          background-position: center; }
+          background-position: center;
+          pointer-events: none; }
         #reading table tr:first-child td .up {
           background-image: url("img/down.png"); }
         #reading table tr:first-child td .down {
@@ -84,16 +127,6 @@ body {
     #reading table td {
       position: relative;
       padding: 2rem 3rem 2rem 3rem; }
-      #reading table td a {
-        position: absolute;
-        display: block;
-        top: 0px;
-        left: 0px;
-        height: 100%;
-        width: 100%;
-        padding: 2rem 3rem 2rem 3rem;
-        color: black;
-        text-decoration: none; }
     #reading table tr:not(:first-child):hover {
       background-color: #E9F0F5; }
 

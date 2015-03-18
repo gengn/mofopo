@@ -1,8 +1,3 @@
-// Sort comparator by date
-function compdate(a, b) {
-  return Date.parse(a.date) > Date.parse(b.date);
-}
-
 // Sort comparator by title
 function comptitle(a, b) {
   return a.title > b.title;
@@ -35,7 +30,6 @@ function buildList(list, comp, column, ascending) {
           '<a href="reading/' + list[i].filename + '">' + list[i].title + '</a>' +
         '</td>' +
         '<td>' + list[i].author + '</td>' +
-        '<td>' + list[i].date + '</td>' +
       '</tr>'
     );
   }
@@ -43,7 +37,7 @@ function buildList(list, comp, column, ascending) {
 
 $(document).ready(function() {
 
-  var column    = 'date';                                  // Ordering column
+  var column    = 'author';                                // Ordering column
   var ascending = false;                                   // Default ordering column
   var list      = [];                                      // List of reading items
 
@@ -51,11 +45,11 @@ $(document).ready(function() {
   $.get('reading.txt', function(data) {
                list = data;
                console.log(list);
-               buildList(list, compdate, 'date', false);   // Build initial list sorted by date
+               buildList(list, compauthor, column, false); // Build initial list sorted by author
     }, 'json');
 
 
-  // Handle toggle
+  // Handle reading list sort toggle
   $('#sort').click(function(e) {
     switch ($(e.target).text()) {
       case 'Title':
@@ -80,16 +74,19 @@ $(document).ready(function() {
         }
         column = 'author';
         break;
-      case 'Read by':
-        console.log('read by');
-
-        if (column === 'date') {
-          buildList(list, compdate, 'date', ascending = !ascending);
-        }
-        else {
-          buildList(list, compdate, 'date', ascending = false);
-        }
-        column = 'date';
     }
+  });
+
+  // Handle modal toggle
+  $('#buttons').click(function(e) {
+    var button = $(e.target).attr('id');
+    console.log(button);
+
+    $('#modal-' + button).toggle();
+  });
+
+  // handle close click
+  $('.close').click(function(e) {
+    $('.modal').hide();
   });
 });

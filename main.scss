@@ -8,9 +8,48 @@ $grey: rgba(0,0,0,0.5);
 
 // Styles
 
+a {
+	color: $sea;
+	text-decoration: none;
+	outline: none !important;
+}
+
 body {
 	margin: 0px;
 	font-family: 'Lato', san-serif;
+}
+
+.modal {
+	z-index: 10;
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,0.95);
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	-o-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+
+	.close {
+		position: absolute;
+		top: 1.5rem;
+		right: 1.5rem;
+		height: 1rem;
+		width: 1rem;
+		background-size: contain;
+		background-image: url('img/close.png');
+		cursor: pointer;
+	}
+
+	.content {
+		padding: 5rem;
+
+		h2 {
+			font-size: 3rem;
+			font-weight: 300;
+		}
+	}
 }
 
 #header {
@@ -35,7 +74,6 @@ body {
 		h1 {
 			position: relative;
 			padding: 3rem;
-			padding-top: 30%;
 			margin: 0px;
 			font-size: 4rem;
 			font-weight: 300;
@@ -44,7 +82,25 @@ body {
 		h3 {
 			position: relative;
 			padding: 3rem;
+			padding-top: 0rem;
 			font-weight: 300;
+		}
+
+		#buttons {
+			padding: 3rem;
+			padding-top: 0rem;
+
+			h3 {
+				display: inline-block;
+				padding: 1rem;
+				background-color: white;
+				color: $sea;
+				cursor: pointer;
+			}
+
+			h3:hover {
+				color: black;
+			}
 		}
 	}
 }
@@ -103,6 +159,7 @@ body {
 					background-size: contain;
 					background-repeat: no-repeat;
 					background-position: center;
+					pointer-events: none;
 				}
 
 				.up {
@@ -122,23 +179,10 @@ body {
 		td {
 			position: relative;
 			padding: 2rem 3rem 2rem 3rem;
-
-			a {
-				position: absolute;
-				display: block;
-				top: 0px;
-				left: 0px;
-				height: 100%;
-				width: 100%;
-				padding: 2rem 3rem 2rem 3rem;
-				color: black;
-				text-decoration: none;
-			}
 		}
 
 		tr:not(:first-child):hover {
 			background-color: $midgrey;
 		}
 	}
-
 }
