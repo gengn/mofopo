@@ -58,7 +58,8 @@ body {
 	float: left;
 	width: 40%;
 	height: 100%;
-	background-size: cover;
+	background-size: contain;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-image: url('img/bg.png');
 	color: white;
@@ -69,7 +70,7 @@ body {
 		width: 100%;
 		height: 100%;
 		background-color: $sea;
-		opacity: 0.95;
+		opacity: 0.90;
 		
 		h1 {
 			position: relative;
