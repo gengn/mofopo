@@ -1,11 +1,11 @@
 // Sort comparator by title
 function comptitle(a, b) {
-  return a.title > b.title;
+  return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
 }
 
 // Sort comparator by author
 function compauthor(a, b) {
-  return a.author > b.author;
+  return a.author.toLowerCase().localeCompare(b.author.toLowerCase());
 }
 
 // Build list of readings
