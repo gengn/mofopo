@@ -42,6 +42,7 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  background-image: url("img/bg.png");
   color: white;
   overflow-x: hidden; }
   #header div:not(#buttons) {
