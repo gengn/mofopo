@@ -5,193 +5,193 @@
 		"filename": "Bentham_Intro to Morals and Legislation.pdf"
 	},
 	{
-		"title": "Burke 1",
-		"author": "Burke",
+		"title": "Reflections on the Revolution in France (excerpt 1)",
+		"author": "Burke, Edmund",
 		"filename": "Burke_1.pdf"
 	},
 	{
-		"title": "Burke 2",
-		"author": "Burke",
+		"title": "Reflections on the Revolution in France (excerpt 2)",
+		"author": "Burke, Edmund",
 		"filename": "Burke_2.pdf"
 	},
 	{
-		"title": "Federalist No. 1",
-		"author": "Hamilton",
+		"title": "The Federalist Papers, No. 1",
+		"author": "Hamilton, Alexander; Jay, John & Madison, James",
 		"filename": "Federalist Papers_Federalist 1.pdf"
 	},
 	{
-		"title": "Federalist No. 9",
-		"author": "Hamilton",
+		"title": "The Federalist Papers, No. 9",
+		"author": "Hamilton, Alexander; Jay, John & Madison, James",
 		"filename": "Federalist Papers_Federalist 9.pdf"
 	},
 	{
-		"title": "Federalist No. 10",
-		"author": "Madison",
+		"title": "The Federalist Papers, No. 10",
+		"author": "Hamilton, Alexander; Jay, John & Madison, James",
 		"filename": "Federalist Papers_Federalist 10.pdf"
 	},
 	{
-		"title": "Federalist No. 14",
-		"author": "Madison",
+		"title": "The Federalist Papers, No. 14",
+		"author": "Hamilton, Alexander; Jay, John & Madison, James",
 		"filename": "Federalist Papers_Federalist 14.pdf"
 	},
 	{
-		"title": "Federalist No. 39",
-		"author": "Madison",
+		"title": "The Federalist Papers, No. 39",
+		"author": "Hamilton, Alexander; Jay, John & Madison, James",
 		"filename": "Federalist Papers_Federalist 39.pdf"
 	},
 	{
-		"title": "Federalist No. 48",
-		"author": "Madison",
+		"title": "The Federalist Papers, No. 48",
+		"author": "Hamilton, Alexander; Jay, John & Madison, James",
 		"filename": "Federalist Papers_Federalist 48.pdf"
 	},
 	{
-		"title": "Federalist No. 51",
-		"author": "Hamilton or Madison",
+		"title": "The Federalist Papers, No. 51",
+		"author": "Hamilton, Alexander; Jay, John & Madison, James",
 		"filename": "Federalist Papers_Federalist 51.pdf"
 	},
 	{
-		"title": "Federalist No. 62",
-		"author": "Hamilton or Madison",
+		"title": "The Federalist Papers, No. 62",
+		"author": "Hamilton, Alexander; Jay, John & Madison, James",
 		"filename": "Federalist Papers_Federalist 62.pdf"
 	},
 	{
-		"title": "Federalist No. 70",
-		"author": "Hamilton",
+		"title": "The Federalist Papers, No. 70",
+		"author": "Hamilton, Alexander; Jay, John & Madison, James",
 		"filename": "Federalist Papers_Federalist 70.pdf"
 	},
 	{
-		"title": "Federalist No. 78",
-		"author": "Hamilton",
+		"title": "The Federalist Papers, No. 78",
+		"author": "Hamilton, Alexander; Jay, John & Madison, James",
 		"filename": "Federalist Papers_Federalist 78.pdf"
 	},
 	{
-		"title": "Lessons for the Professors of Mathematics",
-		"author": "Hobbes",
+		"title": "Six Lessons to the Professors of Mathematics",
+		"author": "Hobbes, Thomas",
 		"filename": "Hobbes_Lessons for the Professors of Mathematics.pdf"
 	},
 	{
-		"title": "Leviathan (1)",
-		"author": "Hobbes",
+		"title": "Leviathan (Introduction)",
+		"author": "Hobbes, Thomas",
 		"filename": "Hobbes_Leviathan_1.pdf"
 	},
 	{
-		"title": "Leviathan (2)",
-		"author": "Hobbes",
+		"title": "Leviathan, Ch. 13-17",
+		"author": "Hobbes, Thomas",
 		"filename": "Hobbes_Leviathan_2.pdf"
 	},
 	{
-		"title": "Leviathan (3)",
-		"author": "Hobbes",
+		"title": "Leviathan, Ch. 21",
+		"author": "Hobbes, Thomas",
 		"filename": "Hobbes_Leviathan_3.pdf"
 	},
 	{
-		"title": "First Treatise (Chapters 1, 2, and 9)",
-		"author": "Locke",
+		"title": "First Treatise of Government, Ch. 1,2 and 9",
+		"author": "Locke, John",
 		"filename": "Locke_First Treatise Ch. 1,2,9.pdf"
 	},
 	{
-		"title": "Second Treatise (Chapters 1–5)",
-		"author": "Locke",
+		"title": "Second Treatise of Government, Ch. 1-5",
+		"author": "Locke, John",
 		"filename": "Locke_Second Treatise Ch. 1-5.pdf"
 	},
 	{
-		"title": "Second Treatise (Chapters 17–19)",
-		"author": "Locke",
+		"title": "Second Treatise of Government, Ch. 17-19",
+		"author": "Locke, John",
 		"filename": "Locke_Second Treatise Ch. 17-19.pdf"
 	},
 	{
-		"title": "The Communist Manifesto",
-		"author": "Marx and Engels",
+		"title": "Manifesto of the Communist Party",
+		"author": "Marx, Karl & Engels, Friedrich",
 		"filename": "Marx and Engels_Communist Manifesto.pdf"
 	},
 	{
 		"title": "Capital (Afterward to the Second German Edition)",
-		"author": "Marx",
+		"author": "Marx, Karl",
 		"filename": "Marx_Capital_Afterward to the Second German Edition.pdf"
 	},
 	{
-		"title": "Capital (Part 1)",
-		"author": "Marx",
+		"title": "Capital, Ch. 1 (excerpts)",
+		"author": "Marx, Karl",
 		"filename": "Marx_Capital_Part 1.pdf"
 	},
 	{
-		"title": "Capital (Part 2)",
-		"author": "Marx",
+		"title": "Capital, Ch. 4 (excerpts)",
+		"author": "Marx, Karl",
 		"filename": "Marx_Capital_Part 2.pdf"
 	},
 	{
-		"title": "Capital (Part 3)",
-		"author": "Marx",
+		"title": "Capital, Ch. 6 (excerpts)",
+		"author": "Marx, Karl",
 		"filename": "Marx_Capital_Part 3.pdf"
 	},
 	{
-		"title": "Capital (Part 4)",
-		"author": "Marx",
+		"title": "Capital, Ch. 12 (excerpts)",
+		"author": "Marx, Karl",
 		"filename": "Marx_Capital_Part 4.pdf"
 	},
 	{
-		"title": "Capital (Part 5)",
-		"author": "Marx",
+		"title": "Capital, Ch. 16 (excerpts)",
+		"author": "Marx, Karl",
 		"filename": "Marx_Capital_Part 5.pdf"
 	},
 	{
 		"title": "Capital (Preface to the First German Edition)",
-		"author": "Marx",
+		"author": "Marx, Karl",
 		"filename": "Marx_Capital_Preface to the First German Edition.pdf"
 	},
 	{
 		"title": "Capital (Preface to the French Edition)",
-		"author": "Marx",
+		"author": "Marx, Karl",
 		"filename": "Marx_Capital_Preface to the French Edition.pdf"
 	},
 	{
-		"title": "Critique of the Gotha Programme (1)",
-		"author": "Marx",
+		"title": "Critique of the Gotha Programme, Ch. 1",
+		"author": "Marx, Karl",
 		"filename": "Marx_Critique Gotha Program_1.pdf"
 	},
 	{
-		"title": "Critique of the Gotha Programme (2)",
-		"author": "Marx",
+		"title": "Critique of the Gotha Programme, Ch. 2",
+		"author": "Marx, Karl",
 		"filename": "Marx_Critique Gotha Program_2.pdf"
 	},
 	{
-		"title": "Critique of the Gotha Programme (3)",
-		"author": "Marx",
+		"title": "Critique of the Gotha Programme, Ch. 3",
+		"author": "Marx, Karl",
 		"filename": "Marx_Critique Gotha Program_3.pdf"
 	},
 	{
-		"title": "Critique of the Gotha Programme (4)",
-		"author": "Marx",
+		"title": "Critique of the Gotha Programme, Ch. 4",
+		"author": "Marx, Karl",
 		"filename": "Marx_Critique Gotha Program_4.pdf"
 	},
 	{
-		"title": "Critique of the Gotha Programme (5)",
-		"author": "Marx",
+		"title": "Critique of the Gotha Programme, Ch.5",
+		"author": "Marx, Karl",
 		"filename": "Marx_Critique Gotha Program_5.pdf"
 	},
 	{
-		"title": "Theories of Surplus Value",
-		"author": "Marx",
+		"title": "Theories of Surplus Value, Ch. 17 (excerpts)",
+		"author": "Marx, Karl",
 		"filename": "Marx_Theories of Surplus Value.pdf"
 	},
 	{
-		"title": "On Liberty (Chapter 5)",
-		"author": "Mill",
+		"title": "On Liberty, Ch. 5",
+		"author": "Mill, John Stuart",
 		"filename": "Mill_Ch. 5.pdf"
 	},
 	{
-		"title": "On Liberty (Chapters 1 and 2)",
-		"author": "Mill",
+		"title": "On Liberty, Ch. 1-2",
+		"author": "Mill, John Stuart",
 		"filename": "Mill_Ch.1-2.pdf"
 	},
 	{
-		"title": "The Social Contract (1)",
-		"author": "Rousseau",
+		"title": "The Social Contract, Bk. 1 Ch. 6-7",
+		"author": "Rousseau, Jean-Jacques",
 		"filename": "Rousseau_1.pdf"
 	},
 	{
-		"title": "The Social Contract (2)",
-		"author": "Rousseau",
+		"title": "The Social Contract, Bk. 2 Ch. 3",
+		"author": "Rousseau, Jean-Jacques",
 		"filename": "Rousseau_2.pdf"
 	}
 ]
