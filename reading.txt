@@ -195,13 +195,13 @@
 		"filename": "Rousseau_2.pdf"
 	},
 	{
-		"title": “First Treatise of Government, Ch.3-4”,
-		"author": “Locke, John“,
+		"title": "First Treatise of Government, Ch.3-4",
+		"author": "Locke, John",
 		"filename": "First-Treatise-3-4.pdf"
 	},
 	{
-		"title": “Groundwork of the Metaphysic of Morals”,
-		"author": “Kant, Immanuel“,
+		"title": "Groundwork of the Metaphysic of Morals",
+		"author": "Kant, Immanuel",
 		"filename": "Kant-Groundwork-Morals.pdf"
 	}
 ]
