@@ -193,10 +193,5 @@
 		"title": "The Social Contract, Bk. 2 Ch. 3",
 		"author": "Rousseau, Jean-Jacques",
 		"filename": "Rousseau_2.pdf"
-	},
-	{
-		"title": "Paul Muldoon Poetry",
-		"author": "Muldoon, Paul",
-		"filename": "Muldoon, Paul.pdf"
 	}
 ]
