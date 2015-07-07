@@ -145,6 +145,11 @@
 		"filename": "Marx_Capital_Preface to the French Edition.pdf"
 	},
 	{
+		"title": "Critique of the Gotha Programme",
+		"author": "Marx, Karl",
+		"filename": "Marx_Critique Gotha Program.pdf"
+	},
+	{
 		"title": "Critique of the Gotha Programme, Ch. 1",
 		"author": "Marx, Karl",
 		"filename": "Marx_Critique Gotha Program_1.pdf"
