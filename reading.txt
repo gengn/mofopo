@@ -150,31 +150,6 @@
 		"filename": "Marx_Critique_Gotha_Program.pdf"
 	},
 	{
-		"title": "Critique of the Gotha Programme, Ch. 1",
-		"author": "Marx, Karl",
-		"filename": "Marx_Critique Gotha Program_1.pdf"
-	},
-	{
-		"title": "Critique of the Gotha Programme, Ch. 2",
-		"author": "Marx, Karl",
-		"filename": "Marx_Critique Gotha Program_2.pdf"
-	},
-	{
-		"title": "Critique of the Gotha Programme, Ch. 3",
-		"author": "Marx, Karl",
-		"filename": "Marx_Critique Gotha Program_3.pdf"
-	},
-	{
-		"title": "Critique of the Gotha Programme, Ch. 4",
-		"author": "Marx, Karl",
-		"filename": "Marx_Critique Gotha Program_4.pdf"
-	},
-	{
-		"title": "Critique of the Gotha Programme, Ch.5",
-		"author": "Marx, Karl",
-		"filename": "Marx_Critique Gotha Program_5.pdf"
-	},
-	{
 		"title": "Theories of Surplus Value, Ch. 17 (excerpts)",
 		"author": "Marx, Karl",
 		"filename": "Marx_Theories of Surplus Value.pdf"
