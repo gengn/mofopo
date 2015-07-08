@@ -15,9 +15,9 @@
 		"filename": "Burke_2.pdf"
 	},
 	{
-		"title": "The Federalist Papers, No. 1",
+		"title": "The Federalist Papers",
 		"author": "Hamilton, Alexander; Jay, John & Madison, James",
-		"filename": "Federalist Papers_Federalist 1.pdf"
+		"filename": "Federalist_Papers.pdf"
 	},
 	{
 		"title": "The Federalist Papers, No. 9",
