@@ -50,39 +50,9 @@
 		"filename": "Marx and Engels_Communist Manifesto.pdf"
 	},
 	{
-		"title": "Capital (Afterward to the Second German Edition)",
+		"title": "Capital (Prefaces, Ch. 1,4,6,12,16, Afterword)",
 		"author": "Marx, Karl",
-		"filename": "Marx_Capital_Afterward to the Second German Edition.pdf"
-	},
-	{
-		"title": "Capital, Ch. 1 (excerpts)",
-		"author": "Marx, Karl",
-		"filename": "Marx_Capital_Part 1.pdf"
-	},
-	{
-		"title": "Capital, Ch. 4 (excerpts)",
-		"author": "Marx, Karl",
-		"filename": "Marx_Capital_Part 2.pdf"
-	},
-	{
-		"title": "Capital, Ch. 6 (excerpts)",
-		"author": "Marx, Karl",
-		"filename": "Marx_Capital_Part 3.pdf"
-	},
-	{
-		"title": "Capital, Ch. 12 (excerpts)",
-		"author": "Marx, Karl",
-		"filename": "Marx_Capital_Part 4.pdf"
-	},
-	{
-		"title": "Capital, Ch. 16 (excerpts)",
-		"author": "Marx, Karl",
-		"filename": "Marx_Capital_Part 5.pdf"
-	},
-	{
-		"title": "Capital (Preface to the First German Edition)",
-		"author": "Marx, Karl",
-		"filename": "Marx_Capital_Preface to the First German Edition.pdf"
+		"filename": "Marx_Capital.pdf"
 	},
 	{
 		"title": "Capital (Preface to the French Edition)",
