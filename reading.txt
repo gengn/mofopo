@@ -20,51 +20,6 @@
 		"filename": "Federalist_Papers.pdf"
 	},
 	{
-		"title": "The Federalist Papers, No. 9",
-		"author": "Hamilton, Alexander; Jay, John & Madison, James",
-		"filename": "Federalist Papers_Federalist 9.pdf"
-	},
-	{
-		"title": "The Federalist Papers, No. 10",
-		"author": "Hamilton, Alexander; Jay, John & Madison, James",
-		"filename": "Federalist Papers_Federalist 10.pdf"
-	},
-	{
-		"title": "The Federalist Papers, No. 14",
-		"author": "Hamilton, Alexander; Jay, John & Madison, James",
-		"filename": "Federalist Papers_Federalist 14.pdf"
-	},
-	{
-		"title": "The Federalist Papers, No. 39",
-		"author": "Hamilton, Alexander; Jay, John & Madison, James",
-		"filename": "Federalist Papers_Federalist 39.pdf"
-	},
-	{
-		"title": "The Federalist Papers, No. 48",
-		"author": "Hamilton, Alexander; Jay, John & Madison, James",
-		"filename": "Federalist Papers_Federalist 48.pdf"
-	},
-	{
-		"title": "The Federalist Papers, No. 51",
-		"author": "Hamilton, Alexander; Jay, John & Madison, James",
-		"filename": "Federalist Papers_Federalist 51.pdf"
-	},
-	{
-		"title": "The Federalist Papers, No. 62",
-		"author": "Hamilton, Alexander; Jay, John & Madison, James",
-		"filename": "Federalist Papers_Federalist 62.pdf"
-	},
-	{
-		"title": "The Federalist Papers, No. 70",
-		"author": "Hamilton, Alexander; Jay, John & Madison, James",
-		"filename": "Federalist Papers_Federalist 70.pdf"
-	},
-	{
-		"title": "The Federalist Papers, No. 78",
-		"author": "Hamilton, Alexander; Jay, John & Madison, James",
-		"filename": "Federalist Papers_Federalist 78.pdf"
-	},
-	{
 		"title": "Six Lessons to the Professors of Mathematics",
 		"author": "Hobbes, Thomas",
 		"filename": "Hobbes_Lessons for the Professors of Mathematics.pdf"
