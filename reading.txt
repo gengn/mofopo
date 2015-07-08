@@ -25,19 +25,9 @@
 		"filename": "Hobbes_Lessons for the Professors of Mathematics.pdf"
 	},
 	{
-		"title": "Leviathan (Introduction)",
+		"title": "Leviathan (Introduction, Ch. 13-17,21)",
 		"author": "Hobbes, Thomas",
-		"filename": "Hobbes_Leviathan_1.pdf"
-	},
-	{
-		"title": "Leviathan, Ch. 13-17",
-		"author": "Hobbes, Thomas",
-		"filename": "Hobbes_Leviathan_2.pdf"
-	},
-	{
-		"title": "Leviathan, Ch. 21",
-		"author": "Hobbes, Thomas",
-		"filename": "Hobbes_Leviathan_3.pdf"
+		"filename": "Hobbes_Leviathan.pdf"
 	},
 	{
 		"title": "First Treatise of Government, Ch. 1,2 and 9",
