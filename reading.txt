@@ -93,5 +93,10 @@
 		"title": "Groundwork of the Metaphysic of Morals",
 		"author": "Kant, Immanuel",
 		"filename": "Kant-Groundwork-Morals.pdf"
+	},
+{
+		"title": "Collusion in Restraint of Democracy: Against Political Deliberation",
+		"author": "Shapiro, Ian",
+		"filename": "Shapiro - Collusion in Restraint of Democracy.pdf"
 	}
 ]
