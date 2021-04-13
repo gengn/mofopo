@@ -101,7 +101,7 @@
 	},
 	{
 		"title": "To James Madison from Thomas Jefferson",
-		"author": "Thomas Jefferson",
+		"author": "Jefferson, Thomas",
 		"filename": "To James Madison from Thomas Jefferson.pdf"
 	}
 ]
