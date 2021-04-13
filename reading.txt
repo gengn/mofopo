@@ -103,5 +103,5 @@
 		"title": "To James Madison from Thomas Jefferson",
 		"author": "Thomas Jefferson",
 		"filename": "To James Madison from Thomas Jefferson.pdf"
-
+	}
 ]
